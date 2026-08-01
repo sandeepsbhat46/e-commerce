@@ -1,0 +1,15 @@
+{
+  "name": "bloom-commerce-server",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Static data API for bloom-commerce (no database, in-memory data)",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
